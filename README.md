@@ -3,7 +3,9 @@ This is a game submitted for the Thoughful Game Jam. The theme of the jam is "To
 
 ## Team Members
 Justin Morrow - Programmer
+
 Joel Douglas - Sound Design
+
 Felice - Tech Artist
 
 ## Game Description
