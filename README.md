@@ -23,6 +23,13 @@ TBA
   
 - Should be good to go!
 
-## How to contribute with a Pull Request
+## How to contribute with a Pull Request (Ask if you don't know how to use Git and I'll help you out)
 
-TBA
+1. Make a new branch using whatever git client you are comfortable using.
+2. Make your changes.
+3. Commit your changes.
+4. Push your changes to your branch.
+5. Create a pull request for your branch on Github.
+6. Wait for the pull request to be reviewed by me and merged into master branch.
+
+- When you are working on a new feature, be careful not to change any files or assets that don't pertain to the feature you are working on. This will make it easier to merge your changes into the master branch. If you change an asset someone else is working on, it will be difficult to merge as we will have to resolve conflicts for that file. If you don't know what this means, get in touch with me and I'll explain it to you.
