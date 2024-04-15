@@ -26,6 +26,8 @@ TBA
 - Should be good to go!
 
 ## How to contribute with a Pull Request (Ask if you don't know how to use Git and I'll help you out)
+ 
+** BEFORE YOU GET TO WORKING ON A CONTRIBUTION, MAKE SURE YOU HAVE THE LATEST VERSION OF THE MASTER BRANCH PULLED LOCALLY ON YOUR PC EVERY MORNING, THIS WILL SAVE A LOT OF HEADACHE WHEN YOU GO TO MAKE YOUR PULL REQUEST **
 
 1. Make a new branch using whatever git client you are comfortable using.
 2. Make your changes.
