@@ -2,11 +2,13 @@
 This is a game submitted for the Thoughful Game Jam. The theme of the jam is "To invoke thought in the player"
 
 ## Team Members
-Justin Morrow - Programmer
+- Justin Morrow (Kallo on Discord) - Programmer
+- Joel Douglas (Joel Douglas on Discord) - Sound Design
+- Felice (Human on Discord) - Tech Artist
+- James (notbears on Discord) - Programmer
+- Clayton (Claytonic on Discord) - Programmer
+- Gavin (planarstairway on Discord) - Programmer
 
-Joel Douglas - Sound Design
-
-Felice - Tech Artist
 
 ## Game Description
 TBA
