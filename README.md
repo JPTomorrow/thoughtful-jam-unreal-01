@@ -11,7 +11,10 @@ This is a game submitted for the Thoughful Game Jam. The theme of the jam is "To
 
 
 ## Game Description
-TBA
+
+(WIP Idea) Felice described this idea as a second person perspective game, where you play as a dude running from a ghost in the woods but you are playing a game on your phone that is so addicting that you cant stop playing it, even with a ghost chasing you. The goal of the game could be to finish the phone game so that the player can access the home screen on his phone to open the flashlight app and kill the ghost by shining a light on it.
+
+The "Set Up" would be the ghost trying to set you up for success by scaring you off of your phone and helping you conquer your phone addiction. Maybe a ending where the player kills the ghost so that they can keep playing the addicting phone game, but if the ghost catches you, we try to portray "getting over your phone addiction" as comedically scary to the player character. Having that kind of comedic inverted horror where the ghost is trying to do something good for you, could satisfy the "Thought Provoking" aspect of the jam.
 
 ## How to Clone this repo and start developing in Unreal Engine 5.3.2
 
