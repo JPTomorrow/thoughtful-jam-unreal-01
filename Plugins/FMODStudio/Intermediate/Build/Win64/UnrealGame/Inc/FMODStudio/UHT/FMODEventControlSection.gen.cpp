@@ -45,12 +45,16 @@ void EmptyLinkFunctionForGeneratedCodeFMODEventControlSection() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::Enum_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Defines the types of FMOD event control keys. */" },
+#endif
 		{ "ModuleRelativePath", "Private/Sequencer/FMODEventControlSection.h" },
 		{ "Pause.Name", "EFMODEventControlKey::Pause" },
 		{ "Play.Name", "EFMODEventControlKey::Play" },
 		{ "Stop.Name", "EFMODEventControlKey::Stop" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Defines the types of FMOD event control keys." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::EnumParams = {
@@ -156,17 +160,25 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventControlChannel>(
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventControlSection_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODEventControlSection_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** FMOD Event control section */" },
+#endif
 		{ "IncludePath", "Sequencer/FMODEventControlSection.h" },
 		{ "ModuleRelativePath", "Private/Sequencer/FMODEventControlSection.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Event control section" },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODEventControlSection_Statics::NewProp_ControlKeys_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Channel containing the event control keys */" },
+#endif
 		{ "ModuleRelativePath", "Private/Sequencer/FMODEventControlSection.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Channel containing the event control keys" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODEventControlSection_Statics::NewProp_ControlKeys = { "ControlKeys", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODEventControlSection, ControlKeys), Z_Construct_UScriptStruct_FFMODEventControlChannel, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventControlSection_Statics::NewProp_ControlKeys_MetaData), Z_Construct_UClass_UFMODEventControlSection_Statics::NewProp_ControlKeys_MetaData) }; // 626993310
@@ -206,23 +218,23 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventControlChannel>(
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODEventControlSection);
 	UFMODEventControlSection::~UFMODEventControlSection() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo[] = {
-		{ EFMODEventControlKey_StaticEnum, TEXT("EFMODEventControlKey"), &Z_Registration_Info_UEnum_EFMODEventControlKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1574250174U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo[] = {
+		{ EFMODEventControlKey_StaticEnum, TEXT("EFMODEventControlKey"), &Z_Registration_Info_UEnum_EFMODEventControlKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2932851113U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo[] = {
 		{ FFMODEventControlChannel::StaticStruct, Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::NewStructOps, TEXT("FMODEventControlChannel"), &Z_Registration_Info_UScriptStruct_FMODEventControlChannel, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventControlChannel), 626993310U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODEventControlSection, UFMODEventControlSection::StaticClass, TEXT("UFMODEventControlSection"), &Z_Registration_Info_UClass_UFMODEventControlSection, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventControlSection), 959365373U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODEventControlSection, UFMODEventControlSection::StaticClass, TEXT("UFMODEventControlSection"), &Z_Registration_Info_UClass_UFMODEventControlSection, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventControlSection), 1894687852U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_2098110778(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_1563400924(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

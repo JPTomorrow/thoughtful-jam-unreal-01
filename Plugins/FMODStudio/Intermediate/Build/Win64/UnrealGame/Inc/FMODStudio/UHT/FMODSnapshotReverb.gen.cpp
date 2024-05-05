@@ -44,18 +44,26 @@ void EmptyLinkFunctionForGeneratedCodeFMODSnapshotReverb() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODSnapshotReverb_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODSnapshotReverb_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Event Asset.\n */" },
+#endif
 		{ "HideCategories", "object" },
 		{ "IncludePath", "FMODSnapshotReverb.h" },
 		{ "ModuleRelativePath", "Classes/FMODSnapshotReverb.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Event Asset." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODSnapshotReverb_Statics::NewProp_AssetGuid_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The unique Guid, which matches the one exported from FMOD Studio */" },
+#endif
 		{ "ModuleRelativePath", "Classes/FMODSnapshotReverb.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The unique Guid, which matches the one exported from FMOD Studio" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODSnapshotReverb_Statics::NewProp_AssetGuid = { "AssetGuid", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODSnapshotReverb, AssetGuid), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODSnapshotReverb_Statics::NewProp_AssetGuid_MetaData), Z_Construct_UClass_UFMODSnapshotReverb_Statics::NewProp_AssetGuid_MetaData) };
@@ -95,15 +103,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODSnapshotReverb() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODSnapshotReverb);
 	UFMODSnapshotReverb::~UFMODSnapshotReverb() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODSnapshotReverb, UFMODSnapshotReverb::StaticClass, TEXT("UFMODSnapshotReverb"), &Z_Registration_Info_UClass_UFMODSnapshotReverb, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSnapshotReverb), 2986356611U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODSnapshotReverb, UFMODSnapshotReverb::StaticClass, TEXT("UFMODSnapshotReverb"), &Z_Registration_Info_UClass_UFMODSnapshotReverb, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSnapshotReverb), 2060438030U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_845323404(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_2193476846(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshotReverb_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

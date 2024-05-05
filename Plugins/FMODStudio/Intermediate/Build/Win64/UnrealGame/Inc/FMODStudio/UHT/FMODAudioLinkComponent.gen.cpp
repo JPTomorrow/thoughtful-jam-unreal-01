@@ -73,9 +73,13 @@ void EmptyLinkFunctionForGeneratedCodeFMODAudioLinkComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData[] = {
 		{ "Category", "Sound" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The sound to be played */" },
+#endif
 		{ "ModuleRelativePath", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The sound to be played" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound = { "Sound", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioLinkComponent, Sound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData), Z_Construct_UClass_UFMODAudioLinkComponent_Statics::NewProp_Sound_MetaData) };
@@ -129,15 +133,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODAudioLinkComponent() {}
 	UFMODAudioLinkComponent::UFMODAudioLinkComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODAudioLinkComponent);
 	UFMODAudioLinkComponent::~UFMODAudioLinkComponent() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAudioLinkComponent, UFMODAudioLinkComponent::StaticClass, TEXT("UFMODAudioLinkComponent"), &Z_Registration_Info_UClass_UFMODAudioLinkComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkComponent), 3560883418U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODAudioLinkComponent, UFMODAudioLinkComponent::StaticClass, TEXT("UFMODAudioLinkComponent"), &Z_Registration_Info_UClass_UFMODAudioLinkComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkComponent), 3761137172U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_2210998890(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_1957181251(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

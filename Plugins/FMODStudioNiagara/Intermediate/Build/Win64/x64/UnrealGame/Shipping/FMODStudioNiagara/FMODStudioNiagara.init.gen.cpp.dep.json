@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\justi\\code\\unreal-projects\\thoughtful-jam-unreal-01\\plugins\\fmodstudioniagara\\intermediate\\build\\win64\\unrealgame\\inc\\fmodstudioniagara\\uht\\fmodstudioniagara.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\justi\\code\\unreal-projects\\thoughtful-jam-unreal-01\\intermediate\\build\\win64\\x64\\thoughtful_jam_01\\shipping\\engine\\sharedpch.engine.cpp17.h.pch",
+        "Includes": [
+            "c:\\users\\justi\\code\\unreal-projects\\thoughtful-jam-unreal-01\\plugins\\fmodstudioniagara\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\fmodstudioniagara\\definitions.fmodstudioniagara.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

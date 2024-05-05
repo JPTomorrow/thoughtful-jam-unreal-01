@@ -73,19 +73,27 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::Class_MetaDataParams[] = {
 		{ "Category", "Audio" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This Data Interface can be used to play one-shot audio effects driven by particle data. */" },
+#endif
 		{ "DisplayName", "FMOD Event Player" },
 		{ "IncludePath", "FMODNiagaraEventPlayer.h" },
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This Data Interface can be used to play one-shot audio effects driven by particle data." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay_MetaData[] = {
 		{ "Category", "Audio" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Reference to the audio asset to play */" },
+#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reference to the audio asset to play" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay = { "EventToPlay", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODNiagaraEventPlayer, EventToPlay), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay_MetaData) };
@@ -93,9 +101,13 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData[] = {
 		{ "Category", "Parameters" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio */" },
+#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames = { "ParameterNames", nullptr, (EPropertyFlags)0x0010000002020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODNiagaraEventPlayer, ParameterNames), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData) };
@@ -115,10 +127,14 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick_MetaData[] = {
 		{ "Category", "Audio" },
 		{ "ClampMin", "0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This sets the max number of sounds played each tick.\n     *  If more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\n     *  The particles to discard when over the limit are *not* chosen in a deterministic way. */" },
+#endif
 		{ "EditCondition", "bLimitPlaysPerTick" },
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This sets the max number of sounds played each tick.\nIf more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\nThe particles to discard when over the limit are *not* chosen in a deterministic way." },
+#endif
 		{ "UIMin", "0" },
 	};
 #endif
@@ -126,9 +142,13 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_MetaData[] = {
 		{ "Category", "Audio" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed. */" },
+#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_SetBit(void* Obj)
@@ -140,9 +160,13 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_MetaData[] = {
 		{ "Category", "Audio" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\n     *  Currently the FMOD Niagara integration will not play in Editor.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\nCurrently the FMOD Niagara integration will not play in Editor." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_SetBit(void* Obj)
@@ -195,15 +219,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODNiagaraEventPlayer);
 	UFMODNiagaraEventPlayer::~UFMODNiagaraEventPlayer() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODNiagaraEventPlayer, UFMODNiagaraEventPlayer::StaticClass, TEXT("UFMODNiagaraEventPlayer"), &Z_Registration_Info_UClass_UFMODNiagaraEventPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODNiagaraEventPlayer), 2121891106U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODNiagaraEventPlayer, UFMODNiagaraEventPlayer::StaticClass, TEXT("UFMODNiagaraEventPlayer"), &Z_Registration_Info_UClass_UFMODNiagaraEventPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODNiagaraEventPlayer), 3167792740U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_3982473413(TEXT("/Script/FMODStudioNiagara"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_3272291627(TEXT("/Script/FMODStudioNiagara"),
+		Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_justi_code_unreal_projects_thoughtful_jam_unreal_01_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
