@@ -1,6 +1,8 @@
 # Thoughful Game Jam (April 12th 2024) 
 This is a game submitted for the Thoughful Game Jam. The theme of the jam is "To invoke thought in the player"
 
+[Link to game page on Itch.io](https://jptomorrow.itch.io/mobile-scare)
+
 ## Team Members
 - Justin Morrow (Kallo on Discord) - Programmer
 - Joel Douglas (Joel Douglas on Discord) - Sound Design
